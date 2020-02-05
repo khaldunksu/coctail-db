@@ -1,38 +1,98 @@
-.App {
+body {
+  margin: 0;
+}
+
+img {
+  width: 150px;
+}
+
+.strDrink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 14px;
+  color: #000000;
+}
+.header {
+  margin: 0;
   text-align: center;
+  font-family: 'Seaweed Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 0.51em;
+  color: #FF8A00;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.filter_block {
+  margin-top: 32px;
+  margin-left: 40px;
+}
+a {
+  color: #818181;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+a:hover {
+  color: #474646;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.filter {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #818181;
+  width: 240px;
+}
+
+.main {
+  display: flex;
+}
+#contet {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 110px;
+}
+.button_back {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+hr {
+  border: 1px solid #D0D0D0;
+}
+.name {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #818181;
+  margin-top: 42px;
+}
+.beer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 35px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.names_drinks {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #818181;
 }
